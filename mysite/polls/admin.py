@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 from .models import Choice, Question
-
+#This module is used for super-previleged functions
 
 class ChoiceInline(admin.TabularInline):
     model = Choice
